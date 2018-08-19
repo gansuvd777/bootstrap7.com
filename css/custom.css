@@ -1,0 +1,45 @@
+/* Golbal Style */
+
+
+body {
+	padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+	body {
+		padding-top: 56px;
+	}
+}
+
+.carousel-item {
+	height: 65px;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-o-background-size:cover;
+	background-size: cover;
+}
+
+.portfolio-item {
+	margin-bottom: 30px;
+}
+
+/* Navigation background color */
+
+.bg-dark {
+	background-color: navy!important;
+}
+
+/* Call to Action Button hover state */
+
+.btn-secondary:hover {
+	color: #fff;
+	background-color: #000080;
+	border-color: #000080;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #000080;
+    border-color: #000080;
+}
